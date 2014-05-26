@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1> Your first and last name is:</h1>
+	<h1> Your first name and last name is:</h1>
 	<%
 		String firstName=(String) request.getAttribute("firstName");
 		String lastName=(String) request.getAttribute("lastName");
